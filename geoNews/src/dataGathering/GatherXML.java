@@ -21,7 +21,7 @@ public class GatherXML {
 		String tester = "http://emm.newsbrief.eu/rss?type=alert&id=Jamaica&category=AnimalHealth&language=all";
 		tester = "http://emm.newsbrief.eu/rss?type=category&id=UnitedKingdom&language=all&duplicates=false";
 		//tester = "http://emm.newsexplorer.eu/rss?type=clusters&language=en";
-		//tester = "http://emm.newsbrief.eu/rss?type=entity&id=11&language=fr";
+		tester = "http://emm.newsbrief.eu/rss?type=entity&id=11&language=fr";
 		//tester = "http://emm.newsexplorer.eu/rss?type=entity&id=11&language=fr";
 		XMLElement channel = rawXML(tester);
 		XMLElement[] items = channel.getChildren("item");
